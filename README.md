@@ -1,6 +1,6 @@
 # Gday, mate!
 
-[![Deploy master](https://github.com/nikilyushkin/gday/actions/workflows/deploy.yml/badge.svg)](https://github.com/nikilyushkin/gday/actions/workflows/deploy.yml)
+[![Deploy master](https://github.com/kindorg-hq/gday/actions/workflows/deploy.yml/badge.svg)](https://github.com/kindorg-hq/gday/actions/workflows/deploy.yml)
 
 Gday.mate is a small web service that shows multiple RSS sources on one page and performs tricky parsing and summarizing articles using TextRank algorithm. 
 
@@ -36,7 +36,7 @@ Text summarization is done via [newspaper3k](https://newspaper.readthedocs.io/en
 The easy way. Install [docker](https://docs.docker.com/install/) on your machine. Then:
 
 ```
-git clone git@github.com:nikilyushkin/gday.git
+git clone git@github.com:kindorg-hq/gday.git
 cd gday
 docker-compose up --build
 ```
